@@ -49,6 +49,7 @@ const AvailableAppontment = ({date}) => {
                         key={booking.id}
                         booking={booking}
                         date={date}
+                        
                     >
                     </Booking>)
                 }
