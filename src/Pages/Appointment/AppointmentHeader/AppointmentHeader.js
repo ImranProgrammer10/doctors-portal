@@ -5,7 +5,7 @@ import Calendar from '../../Shared/Calendar/Calendar';
  
 
 const AppointmentHeader = ({ date, setDate }) => {
-
+ 
     return (
         <Container>
             <Grid container spacing={2}>
