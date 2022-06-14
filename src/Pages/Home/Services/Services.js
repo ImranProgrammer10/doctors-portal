@@ -30,10 +30,8 @@ const services = [
 const Services = () => {
     return (
         <Box sx={{ flexGrow: 1 }}>
-      <Container>
-      <Typography sx={{fontWeight: 500, m:2, color: 'primary.main'}} variant="h6" component="div">
-                       OUR SERVICES
-                    </Typography>
+      <Container sx={{mt:10}}>
+      
       <Typography sx={{fontWeight: 600, m:2 }} variant="h6" component="div">
                     SERVICES WE PROVIDE
                     </Typography>

@@ -9,23 +9,25 @@ const appointmentBanner = {
     background: `url(${bg})`,
     backgroundColor: 'rgba(45, 58, 74, 0.9)',
     backgroundBlendMode: 'darken, luminosity',
-    marginTop: 175
+    marginTop: 175,
+    marginBottom:100
 }
 
 const AppointmentBanner = () => {
     return (
         <Container style={appointmentBanner} sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
-                <Grid item xs={12} md={6}>
+                <Grid item xs={12} sm={12} md={6}>
                     <img
                         style={{ width: 400, marginTop: '-110px' }}
                         src={doctor} alt="" />
                 </Grid>
-                <Grid item xs={12} md={6} sx={{
+                <Grid item xs={12} sm={12} md={6} sx={{
                     display: 'flex',
                     justifyContent: 'flex-start',
                     alignItems: 'center',
                     textAlign: 'left'
+
                 }}>
                     <Box>
                         <Typography variant="h6" sx={{ mb: 5 }} style={{ color: '#5CE7ED' }}>
